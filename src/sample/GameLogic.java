@@ -143,7 +143,7 @@ public class GameLogic {
             for (int i = 0; i < p1Ships.length; i++) {
                 if (p1Ships[i].checkIfDead()) {
                     for (int j = 0; j < p1Ships[i].getShipPieces().length; j++)
-                        p1Ships[i].getShipPieces()[j].setShipImage("dead.png");
+                        p1Ships[i].getShipPieces()[j].setShipImage("/home/arghyadeep/IdeaProjects/Battleship/res/Dead.png");
                 } else {
                     p1AllShipsDead = false;
                 }
@@ -157,7 +157,7 @@ public class GameLogic {
             for (int i = 0; i < p2Ships.length; i++) {
                 if (p2Ships[i].checkIfDead()) {
                     for (int j = 0; j < p2Ships[i].getShipPieces().length; j++)
-                        p2Ships[i].getShipPieces()[j].setShipImage("dead.png");
+                        p2Ships[i].getShipPieces()[j].setShipImage("/home/arghyadeep/IdeaProjects/Battleship/res/Dead.png");
                 } else {
                     p2AllShipsDead = false;
                 }
