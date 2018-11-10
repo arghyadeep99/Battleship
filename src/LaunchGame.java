@@ -19,7 +19,6 @@ public class LaunchGame implements LineListener {
 
     /**
      * Play a given audio file.
-     * @param  audiofilepath Path of the audio file.
      */
     void play() {
         String audioFilePath = "music1.wav";

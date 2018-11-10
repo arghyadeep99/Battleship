@@ -109,7 +109,7 @@ public class MainMenu {
 
         battleshipSize = new JButton("Length of Battleship: " + GameLogic.battleshipSize);
         battleshipSize.setSize(200, 50);
-        battleshipSize.setLocation(window.getContentPane().getWidth() - battleshipSize.getWidth() - 300,
+        battleshipSize.setLocation(window.getContentPane().getWidth() - battleshipSize.getWidth() - 350,
                 bkgImageContainer.getHeight() + 50);
         battleshipSize.addActionListener(new ActionListener(){
             @Override
@@ -128,7 +128,7 @@ public class MainMenu {
 
 
         battleshipCount = new JButton("Number of Battleships: " + GameLogic.battleshipCount);
-        battleshipCount.setSize(200, 50);
+        battleshipCount.setSize(250, 50);
         battleshipCount.setLocation(window.getContentPane().getWidth() - battleshipCount.getWidth() - 100,
                 bkgImageContainer.getHeight() + 50);
         battleshipCount.addActionListener(new ActionListener(){
@@ -149,7 +149,7 @@ public class MainMenu {
 
         cruiserSize = new JButton("Length of Cruiser: " + GameLogic.cruiserSize);
         cruiserSize.setSize(200, 50);
-        cruiserSize.setLocation(window.getContentPane().getWidth() - cruiserSize.getWidth() - 300,
+        cruiserSize.setLocation(window.getContentPane().getWidth() - cruiserSize.getWidth() - 350,
                 bkgImageContainer.getHeight() + battleshipSize.getHeight() + 50);
         cruiserSize.addActionListener(new ActionListener(){
             @Override
@@ -168,7 +168,7 @@ public class MainMenu {
 
 
         cruiserCount = new JButton("Number of Cruisers: " + GameLogic.cruiserCount);
-        cruiserCount.setSize(200, 50);
+        cruiserCount.setSize(250, 50);
         cruiserCount.setLocation(window.getContentPane().getWidth() - cruiserCount.getWidth() - 100,
                 bkgImageContainer.getHeight() + battleshipCount.getHeight() + 50);
         cruiserCount.addActionListener(new ActionListener(){
@@ -189,7 +189,7 @@ public class MainMenu {
 
         destroyerSize = new JButton("Length of Destroyer: " + GameLogic.destroyerSize);
         destroyerSize.setSize(200, 50);
-        destroyerSize.setLocation(window.getContentPane().getWidth() - battleshipSize.getWidth() - 300,
+        destroyerSize.setLocation(window.getContentPane().getWidth() - battleshipSize.getWidth() - 350,
                 bkgImageContainer.getHeight() + battleshipSize.getHeight() + cruiserSize.getHeight() + 50);
         destroyerSize.addActionListener(new ActionListener(){
             @Override
@@ -208,7 +208,7 @@ public class MainMenu {
 
 
         destroyerCount = new JButton("Number of Destroyers: " + GameLogic.destroyerCount);
-        destroyerCount.setSize(200, 50);
+        destroyerCount.setSize(250, 50);
         destroyerCount.setLocation(window.getContentPane().getWidth() - destroyerCount.getWidth() - 100,
                 bkgImageContainer.getHeight() +
                         battleshipCount.getHeight() +
@@ -231,7 +231,7 @@ public class MainMenu {
 
         submarineSize = new JButton("Length of Submarine: " + GameLogic.submarineSize);
         submarineSize.setSize(200, 50);
-        submarineSize.setLocation(window.getContentPane().getWidth() - submarineSize.getWidth() - 300,
+        submarineSize.setLocation(window.getContentPane().getWidth() - submarineSize.getWidth() - 350,
                 bkgImageContainer.getHeight() +
                         battleshipSize.getHeight() +
                         cruiserSize.getHeight() +
@@ -252,7 +252,7 @@ public class MainMenu {
         });
 
         submarineCount = new JButton("Number of Submarines: " + GameLogic.submarineCount);
-        submarineCount.setSize(200, 50);
+        submarineCount.setSize(250, 50);
         submarineCount.setLocation(window.getContentPane().getWidth() - submarineCount.getWidth() - 100,
                 bkgImageContainer.getHeight() +
                         battleshipCount.getHeight() +
