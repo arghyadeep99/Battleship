@@ -14,7 +14,7 @@
 
 ### The traditional Battleship game with a modern GUI twist!
 
-This is the famous Battleship game that became popular during World War I time, and has been ever since a clasic game like Tic-Tac-Toe, Mario and so on. 
+This is the famous Battleship game that became popular during World War I time, and has been since then a classic game like Tic-Tac-Toe, Chess, Mario and so on. 
 The traditional pen-paper game just got a facelift into modern GUI!
 
 #### Basic Features:
